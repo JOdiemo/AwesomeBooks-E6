@@ -19,7 +19,7 @@ export const isStorageAvailable = (type) => {
       && storage.length !== 0
     );
   }
-}
+};
 
 // Book add and remove
 
