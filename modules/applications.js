@@ -1,6 +1,6 @@
 // Form local storage availability checker function
 
-export function isStorageAvailable(type) {
+export const isStorageAvailable = (type) => {
   let storage;
   try {
     storage = window[type];
